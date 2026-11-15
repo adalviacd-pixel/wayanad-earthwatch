@@ -1,0 +1,63 @@
+Results found: 20
+Field names: ['centerLat', 'centerLon', 'stopTime', 'fileID', 'flightDirection', 'pathNumber', 'processingLevel', 'url', 'startTime', 'sceneName', 'browse', 'platform', 'bytes', 'md5sum', 'frameNumber', 'granuleType', 'orbit', 'polarization', 'processingDate', 'sensor', 'pgeVersion', 'crid', 'mainBandPolarization', 'sideBandPolarization', 'frameCoverage', 'jointObservation', 'rangeBandwidth', 'productionConfiguration', 'collectionName', 'orbitType', 'fileName', 'beamModeType', 'additionalUrls', 's3Urls', 'groupID', 'conceptID']
+
+NISAR_L2_UR_GUNW_028_005_D_083_035_4000_SH_20260813T132812_20260813T132831_20261105T132813_20261105T132832_P05023_F_P_J_001
+  start: 2026-08-13T13:28:12Z | direction: DESCENDING | path: 5 | frame: 83
+  contains test point: True | rough box covered: 53%
+NISAR_L2_UR_GUNW_032_005_D_082_035_2000_SH_20260930T132738_20260930T132813_20261105T132739_20261105T132814_P05023_F_F_J_001
+  start: 2026-09-30T13:27:38Z | direction: DESCENDING | path: 5 | frame: 82
+  contains test point: True | rough box covered: 75%
+NISAR_L2_UR_GUNW_033_077_D_083_034_4000_SH_20261017T131952_20261017T132027_20261029T131953_20261029T132027_P05023_F_F_J_001
+  start: 2026-10-17T13:19:52Z | direction: DESCENDING | path: 77 | frame: 83
+  contains test point: True | rough box covered: 46%
+NISAR_L2_PR_GUNW_032_113_A_007_033_4000_SH_20261008T003232_20261008T003306_20261020T003232_20261020T003306_P05023_N_F_J_001
+  start: 2026-10-08T00:32:32Z | direction: ASCENDING | path: 113 | frame: 7
+  contains test point: True | rough box covered: 78%
+NISAR_L2_PR_GUNW_032_077_D_083_033_2000_SH_20261005T131952_20261005T132027_20261017T131952_20261017T132027_P05023_N_F_J_001
+  start: 2026-10-05T13:19:52Z | direction: DESCENDING | path: 77 | frame: 83
+  contains test point: True | rough box covered: 42%
+NISAR_L2_PR_GUNW_032_012_A_008_033_4000_SH_20261001T002446_20261001T002520_20261013T002446_20261013T002521_P05023_N_F_J_001
+  start: 2026-10-01T00:24:46Z | direction: ASCENDING | path: 12 | frame: 8
+  contains test point: True | rough box covered: 62%
+NISAR_L2_PR_GUNW_032_012_A_007_033_4000_SH_20261001T002412_20261001T002447_20261013T002413_20261013T002447_P05023_N_F_J_001
+  start: 2026-10-01T00:24:12Z | direction: ASCENDING | path: 12 | frame: 7
+  contains test point: True | rough box covered: 25%
+NISAR_L2_PR_GUNW_031_113_A_007_032_4000_SH_20260926T003232_20260926T003306_20261008T003232_20261008T003306_P05023_N_F_J_001
+  start: 2026-09-26T00:32:32Z | direction: ASCENDING | path: 113 | frame: 7
+  contains test point: True | rough box covered: 78%
+NISAR_L2_PR_GUNW_031_077_D_083_032_2000_SH_20260923T131952_20260923T132027_20261005T131952_20261005T132027_P05023_N_F_J_001
+  start: 2026-09-23T13:19:52Z | direction: DESCENDING | path: 77 | frame: 83
+  contains test point: True | rough box covered: 50%
+NISAR_L2_PR_GUNW_031_012_A_008_032_4000_SH_20260919T002446_20260919T002520_20261001T002446_20261001T002520_P05023_N_F_J_001
+  start: 2026-09-19T00:24:46Z | direction: ASCENDING | path: 12 | frame: 8
+  contains test point: True | rough box covered: 62%
+NISAR_L2_PR_GUNW_031_012_A_007_032_4000_SH_20260919T002412_20260919T002447_20261001T002412_20261001T002447_P05023_N_F_J_001
+  start: 2026-09-19T00:24:12Z | direction: ASCENDING | path: 12 | frame: 7
+  contains test point: True | rough box covered: 25%
+NISAR_L2_PR_GUNW_031_005_D_083_032_2000_SV_20260918T132812_20260918T132846_20260930T132812_20260930T132846_P05023_N_F_J_001
+  start: 2026-09-18T13:28:12Z | direction: DESCENDING | path: 5 | frame: 83
+  contains test point: True | rough box covered: 50%
+NISAR_L2_PR_GUNW_031_005_D_083_032_2000_SH_20260918T132812_20260918T132835_20260930T132812_20260930T132835_P05023_N_P_J_001
+  start: 2026-09-18T13:28:12Z | direction: DESCENDING | path: 5 | frame: 83
+  contains test point: True | rough box covered: 50%
+NISAR_L2_PR_GUNW_031_005_D_082_032_2000_SH_20260918T132738_20260918T132813_20260930T132738_20260930T132813_P05023_N_F_J_001
+  start: 2026-09-18T13:27:38Z | direction: DESCENDING | path: 5 | frame: 82
+  contains test point: True | rough box covered: 75%
+NISAR_L2_PR_GUNW_030_113_A_007_031_4000_SH_20260914T003232_20260914T003306_20260926T003232_20260926T003306_P05023_N_F_J_001
+  start: 2026-09-14T00:32:32Z | direction: ASCENDING | path: 113 | frame: 7
+  contains test point: True | rough box covered: 78%
+NISAR_L2_PR_GUNW_030_077_D_083_031_2000_SH_20260911T131952_20260911T132027_20260923T131952_20260923T132027_P05023_N_F_J_001
+  start: 2026-09-11T13:19:52Z | direction: DESCENDING | path: 77 | frame: 83
+  contains test point: True | rough box covered: 42%
+NISAR_L2_PR_GUNW_030_012_A_008_031_4000_SH_20260907T002446_20260907T002520_20260919T002446_20260919T002520_P05023_F_F_J_001
+  start: 2026-09-07T00:24:46Z | direction: ASCENDING | path: 12 | frame: 8
+  contains test point: True | rough box covered: 62%
+NISAR_L2_PR_GUNW_030_012_A_007_031_4000_SH_20260907T002412_20260907T002447_20260919T002412_20260919T002447_P05023_F_F_J_001
+  start: 2026-09-07T00:24:12Z | direction: ASCENDING | path: 12 | frame: 7
+  contains test point: True | rough box covered: 25%
+NISAR_L2_PR_GUNW_030_005_D_083_031_2000_SV_20260906T132812_20260906T132846_20260918T132812_20260918T132846_P05023_F_F_J_001
+  start: 2026-09-06T13:28:12Z | direction: DESCENDING | path: 5 | frame: 83
+  contains test point: True | rough box covered: 49%
+NISAR_L2_PR_GUNW_030_005_D_083_031_2000_SH_20260906T132812_20260906T132835_20260918T132812_20260918T132835_P05023_F_P_J_001
+  start: 2026-09-06T13:28:12Z | direction: DESCENDING | path: 5 | frame: 83
+  contains test point: True | rough box covered: 49%
