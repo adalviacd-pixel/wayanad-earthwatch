@@ -52,3 +52,4 @@ print("connectedComponents unique values:", np.unique(cc))
 
 np.save("window_coh.npy", coh)
 np.save("window_unw.npy", unw)
+np.save("window_cc.npy", cc)

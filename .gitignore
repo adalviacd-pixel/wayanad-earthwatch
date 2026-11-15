@@ -25,3 +25,4 @@ dist-ssr
 .venv/
 .dodsrc
 *.npy
+__pycache__/

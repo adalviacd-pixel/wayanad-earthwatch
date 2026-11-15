@@ -1,0 +1,51 @@
+--- layer descriptions stored in the file ---
+HH/unwrappedPhase
+    DIMENSION_LIST : [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+    _FillValue : nan
+    description : Unwrapped interferogram between HH layers
+    grid_mapping : projection
+    max_value : 26.737619400024414
+    mean_value : 0.974661648273468
+    min_value : -24.236671447753906
+    sample_stddev : 4.178114891052246
+    units : radians
+HH/coherenceMagnitude
+    DIMENSION_LIST : [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+    _FillValue : nan
+    description : Coherence magnitude between HH layers
+    grid_mapping : projection
+    max_value : 0.9957488775253296
+    mean_value : 0.1890113353729248
+    min_value : 0.0014975012745708227
+    sample_stddev : 0.19796620309352875
+    units : 1
+HH/connectedComponents
+    DIMENSION_LIST : [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+    _FillValue : 65535
+    description : Connected components for HH layer
+    grid_mapping : projection
+    units : 1
+mask
+    DIMENSION_LIST : [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+    _FillValue : 255
+    description : Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bit 24 indicates a bit mask for ionospheric phase mask used during filtering of ionospheric phase. This ionospheric phase mask indicates pixels which were masked out and filled with interpolated data. Bits 25-31 are reserved for future use
+    disclaimer : Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.
+    grid_mapping : projection
+    percentage_water : 67.7767692462851
+    valid_min : 0
+
+--- mask values in this window ---
+mask = 0 : 2949 pixels
+mask = 11 : 38 pixels
+mask = 16777216 : 482 pixels
+mask = 16777228 : 6531 pixels
+
+--- zero phase versus mask ---
+mask = 0 | pixels: 2949 | of which zero phase: 2949
+mask = 11 | pixels: 38 | of which zero phase: 0
+mask = 16777216 | pixels: 482 | of which zero phase: 425
+mask = 16777228 | pixels: 6531 | of which zero phase: 0
