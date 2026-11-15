@@ -29,3 +29,10 @@ Read directly from the file's own metadata (not the filename):
 - DOI 10.5067/NIL2GUNW-P1, processed 2026-10-22
 - Input data exception flags: reference 0, secondary 0 (meaning to be confirmed in the product specification)
 - Unwrapped grid 4149 x 4230; wrapped grid 16596 x 16920
+## Observation: zero-valued unwrapped phase near Kalpetta (explained)
+
+In a 100 x 100 pixel window near Kalpetta (2026-10-08 to 2026-10-20 GUNW), 3,374 of 10,000 pixels have
+unwrapped phase of exactly 0. The file's own `mask` description marks these as invalid samples in the
+reference and/or secondary image. connectedComponents does not flag them, so it is not used as a validity test.
+About 70% of the window carries the mask bit for ionosphere-interpolated pixels; the effect on
+unwrapped phase is not established.
