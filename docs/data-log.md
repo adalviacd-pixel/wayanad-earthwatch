@@ -36,3 +36,11 @@ unwrapped phase of exactly 0. The file's own `mask` description marks these as i
 reference and/or secondary image. connectedComponents does not flag them, so it is not used as a validity test.
 About 70% of the window carries the mask bit for ionosphere-interpolated pixels; the effect on
 unwrapped phase is not established.
+## Window statistics across seven Provisional pairs (Track 113, Frame 7)
+
+Window: 100 x 100 pixels near Kalpetta, valid pixels per the file's mask.
+- Mean coherence 0.34 to 0.56; phase standard deviation 0.22 to 0.52 rad.
+- 12-day pairs range from 0.38 to 0.56 coherence, so the time gap alone does not explain it.
+- Ionosphere-interpolation flag covers 86.5% to 100% of valid pixels in every pair.
+- Zero anomaly pixels and zero zero-phase pixels inside the valid area in every pair.
+No displacement or landslide interpretation is supported by these statistics.

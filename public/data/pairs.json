@@ -1,0 +1,85 @@
+{
+  "dataset": "NISAR L2 GUNW, Track 113, Frame 7, ascending, HH",
+  "maturity": "Provisional (CRID P05023)",
+  "window": "100 x 100 pixels (about 8 km at 80 m spacing) centered near Kalpetta",
+  "caution": "Statistics describe one small window. They are not district-wide and are not displacement measurements.",
+  "pairs": [
+    {
+      "start": "2026-06-22",
+      "end": "2026-07-04",
+      "gap_days": 12,
+      "valid_pixels": 6623,
+      "coherence_mean": 0.381,
+      "phase_std_rad": 0.487,
+      "iono_flag_pct": 86.5,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_023_113_A_007_024_4000_SH_20260622T003235_20260622T003310_20260704T003235_20260704T003309_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-07-04",
+      "end": "2026-08-21",
+      "gap_days": 48,
+      "valid_pixels": 6572,
+      "coherence_mean": 0.342,
+      "phase_std_rad": 0.477,
+      "iono_flag_pct": 90.8,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_024_113_A_007_028_4000_SH_20260704T003235_20260704T003309_20260821T003232_20260821T003307_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-08-21",
+      "end": "2026-09-02",
+      "gap_days": 12,
+      "valid_pixels": 6632,
+      "coherence_mean": 0.559,
+      "phase_std_rad": 0.224,
+      "iono_flag_pct": 100.0,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_028_113_A_007_029_4000_SH_20260821T003232_20260821T003307_20260902T003232_20260902T003306_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-09-02",
+      "end": "2026-09-14",
+      "gap_days": 12,
+      "valid_pixels": 6561,
+      "coherence_mean": 0.464,
+      "phase_std_rad": 0.52,
+      "iono_flag_pct": 97.7,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_029_113_A_007_030_4000_SH_20260902T003232_20260902T003306_20260914T003232_20260914T003306_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-09-14",
+      "end": "2026-09-26",
+      "gap_days": 12,
+      "valid_pixels": 6626,
+      "coherence_mean": 0.42,
+      "phase_std_rad": 0.476,
+      "iono_flag_pct": 94.3,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_030_113_A_007_031_4000_SH_20260914T003232_20260914T003306_20260926T003232_20260926T003306_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-09-26",
+      "end": "2026-10-08",
+      "gap_days": 12,
+      "valid_pixels": 6581,
+      "coherence_mean": 0.501,
+      "phase_std_rad": 0.333,
+      "iono_flag_pct": 99.9,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_031_113_A_007_032_4000_SH_20260926T003232_20260926T003306_20261008T003232_20261008T003306_P05023_N_F_J_001"
+    },
+    {
+      "start": "2026-10-08",
+      "end": "2026-10-20",
+      "gap_days": 12,
+      "valid_pixels": 6569,
+      "coherence_mean": 0.519,
+      "phase_std_rad": 0.332,
+      "iono_flag_pct": 99.4,
+      "anomaly_pixels": 0,
+      "product": "NISAR_L2_PR_GUNW_032_113_A_007_033_4000_SH_20261008T003232_20261008T003306_20261020T003232_20261020T003306_P05023_N_F_J_001"
+    }
+  ]
+}
