@@ -1,8 +1,21 @@
+import { useState } from 'react'
+import Sidebar from './components/Sidebar'
+import Overview from './pages/Overview'
+import Observations from './pages/Observations'
+import EvidenceMethods from './pages/EvidenceMethods'
+import './App.css'
+
 function App() {
+  const [currentPage, setCurrentPage] = useState('overview')
+
   return (
-    <div>
-      <h1>Wayanad EarthWatch</h1>
-      <p>Evidence-first landslide monitoring with NISAR satellite data.</p>
+    <div className="app-layout">
+      <Sidebar currentPage={currentPage} onNavigate={setCurrentPage} />
+      <main className="main-content">
+        {currentPage === 'overview' && <Overview />}
+        {currentPage === 'observations' && <Observations />}
+        {currentPage === 'evidence' && <EvidenceMethods />}
+      </main>
     </div>
   )
 }
