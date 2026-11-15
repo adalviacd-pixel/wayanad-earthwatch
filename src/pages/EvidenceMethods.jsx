@@ -1,16 +1,26 @@
+import Card from '../components/Card'
+import EvidenceBadge from '../components/EvidenceBadge'
+
+const LABEL_GUIDE = [
+  { type: 'observed', text: 'What a dataset directly shows.' },
+  { type: 'derived', text: 'A value we calculated from observed data.' },
+  { type: 'possible', text: 'A reasonable reading, not a conclusion.' },
+  { type: 'validation', text: 'Needs independent checking.' },
+  { type: 'none', text: 'The data does not support it.' },
+]
+
 function EvidenceMethods() {
   return (
     <div>
       <h1>Evidence and Methods</h1>
 
-      <div className="card">
-        <h2>How we will label evidence</h2>
-        <p>Observed: what a dataset directly shows.</p>
-        <p>Derived: a value we calculated from observed data.</p>
-        <p>Possible interpretation: a reasonable reading, not a conclusion.</p>
-        <p>Requires validation: needs independent checking.</p>
-        <p>Not established: the data does not support it.</p>
-      </div>
+      <Card title="How we label evidence">
+        {LABEL_GUIDE.map((item) => (
+          <p key={item.type}>
+            <EvidenceBadge type={item.type} /> {item.text}
+          </p>
+        ))}
+      </Card>
     </div>
   )
 }
