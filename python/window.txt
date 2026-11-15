@@ -1,0 +1,10 @@
+projection value: 32643
+projection attributes: {'description': np.bytes_(b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'), 'ellipsoid': np.bytes_(b'WGS84'), 'epsg_code': np.int64(32643), 'false_easting': np.float64(500000.0), 'false_northing': np.float64(0.0), 'grid_mapping_name': np.bytes_(b'transverse_mercator'), 'inverse_flattening': np.float64(298.257223563), 'latitude_of_projection_origin': np.float64(0.0), 'longitude_of_central_meridian': np.float64(75.0), 'longitude_of_projection_origin': np.float64(0.0), 'scale_factor_at_central_meridian': np.float64(0.9996), 'semi_major_axis': np.float64(6378137.0), 'spatial_ref': np.bytes_(b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'), 'utm_zone_number': np.int64(43)}
+x range: 365080.0 703400.0 spacing: 80.0
+y range: 1033960.0 1365800.0 spacing: -80.0
+Kalpetta in grid coordinates: 637024.6103745345 1289582.1342419125
+nearest pixel (row, col): 953 3399
+window rows 903 1003 cols 3349 3449
+coherenceMagnitude shape (100, 100) | NaN: 0 | zeros: 0 | min/mean/max: 0.10263735055923462 0.5401837534829974 0.9760509729385376
+unwrappedPhase shape (100, 100) | NaN: 0 | zeros: 3374 | min/mean/max: -2.6615195274353027 -0.8736221654925496 0.04662356153130531
+connectedComponents unique values: [0 1]

@@ -20,3 +20,12 @@ Source: NISAR Data User Guide, "Provisional Product Known Issues" (updated 30 Ju
 - BETA products (CRID X05010, Oct 2025 to Jan 2026) are pre-calibration and are kept separate from PROVISIONAL products.
 - About 1 to 2% of products come from incomplete raw data, which can cause decorrelation or misplaced products in InSAR. Check quality flags before interpreting any feature.
 - Ionospheric residuals are documented mainly for high latitudes; their effect at Wayanad's latitude is not established here. The GUNW ionospheric phase screen is included but not applied by default.
+## Verified product: GUNW Track 113 Frame 7, 2026-10-08 to 2026-10-20
+
+Read directly from the file's own metadata (not the filename):
+- Track 113, frame 7, ascending, left-looking, L-band, polarization HH
+- Reference 2026-10-08 00:32:32 UTC, secondary 2026-10-20 00:32:32 UTC, temporal baseline 12 days
+- Composite release ID P05023, product version 1.0.11, specification 1.5.0
+- DOI 10.5067/NIL2GUNW-P1, processed 2026-10-22
+- Input data exception flags: reference 0, secondary 0 (meaning to be confirmed in the product specification)
+- Unwrapped grid 4149 x 4230; wrapped grid 16596 x 16920
