@@ -1,6 +1,6 @@
-| Product | Date pair | Gap | Track | Frame | Direction | Config | Code | Label |
-|---|---|---|---|---|---|---|---|---|
-| GUNW | 2025-11-18 to 2025-11-30 | 12 d | 113 | 7 | Ascending | PR | not read | not checked |
+| GUNW | 2025-11-18 to 2025-11-30 | 12 d | 113 | 7 | Ascending | PR | X05010 | Experimental (pre-calibration), not for mixing with P05023 |
+| GUNW | 2025-11-18 to 2025-12-24 | 36 d | 113 | 7 | Ascending | PR | X05010 | Experimental (pre-calibration), not for mixing with P05023 |
+| GUNW | 2025-12-24 to 2026-01-05 | 12 d | 113 | 7 | Ascending | PR | X05010 | Experimental (pre-calibration), not for mixing with P05023 |
 | GUNW | 2025-11-18 to 2025-12-24 | 36 d | 113 | 7 | Ascending | PR | not read | not checked |
 | GUNW | 2025-12-24 to 2026-01-05 | 12 d | 113 | 7 | Ascending | PR | not read | not checked |
 | GUNW | 2026-06-22 to 2026-07-04 | 12 d | 113 | 7 | Ascending | PR | P05023 | Provisional (Oct pair verified) |

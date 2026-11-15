@@ -28,7 +28,7 @@ for r in results:
 
     first = datetime.strptime(stamps[0][:8], "%Y%m%d")
     second = datetime.strptime(stamps[2][:8], "%Y%m%d")
-    crid = re.search(r"_(P\d{5})_", name)
+    crid = re.search(r"_([PX]\d{5})_", name)
     config = "UR" if "_UR_" in name else "PR" if "_PR_" in name else "?"
     rows.append((first, second, (second - first).days,
                  crid.group(1) if crid else "?", config))
