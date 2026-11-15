@@ -1,0 +1,95 @@
+Product name: NISAR_L2_PR_GUNW_032_113_A_007_033_4000_SH_20261008T003232_20261008T003306_20261020T003232_20261020T003306_P05023_N_F_J_001
+
+--- identification (single values) ---
+boundingPolygon = POLYGON ((76.7500666945577 10.047023725633 31.0808879896558,76.700028338038 10.2553921796791 103.804580937715,76.6408861...
+compositeReleaseId = P05023
+diagnosticModeFlag = 0
+frameNumber = 7
+granuleId = NISAR_L2_PR_GUNW_032_113_A_007_033_4000_SH_20261008T003232_20261008T003306_20261020T003232_20261020T003306_P05023_N_F_J_001
+instrumentName = L-SAR
+isDithered = True
+isFullFrame = True
+isGeocoded = True
+isMixedMode = False
+isUrgentObservation = False
+lookDirection = Left
+missionId = NISAR
+orbitPassDirection = Ascending
+platformName = NISAR
+processingCenter = JPL
+processingDateTime = 2026-10-22T01:25:49
+processingType = Nominal
+productDoi = 10.5067/NIL2GUNW-P1
+productLevel = L2
+productSpecificationVersion = 1.5.0
+productType = GUNW
+productVersion = 1.0.11
+radarBand = L
+referenceAbsoluteOrbitNumber = 6267
+referenceHasInputDataException = 0
+referenceIsJointObservation = True
+referenceZeroDopplerEndTime = 2026-10-08T00:33:06.999342105
+referenceZeroDopplerStartTime = 2026-10-08T00:32:32.000000000
+secondaryAbsoluteOrbitNumber = 6440
+secondaryHasInputDataException = 0
+secondaryIsJointObservation = True
+secondaryZeroDopplerEndTime = 2026-10-20T00:33:06.999342105
+secondaryZeroDopplerStartTime = 2026-10-20T00:32:32.000000000
+staticLayersDataAccess = https://nisar-services.earthdata.nasa.gov/redirect/NISAR_L2_STATIC/NISAR_L2_PR_GUNW_032_113_A_007_033_4000_SH_20261008T003232_20261008T003306_20261020T003232_20261020T003306_P05023_N_F_J_001.h5
+trackNumber = 113
+
+--- temporalBaseline ---
+12
+
+--- frequencyA contents ---
+centerFrequency () float64
+listOfPolarizations (1,) |S2
+pixelOffsets/
+  HH/
+    alongTrackOffset (4149, 4230) float32
+    correlationSurfacePeak (4149, 4230) float32
+    projection () uint32
+    slantRangeOffset (4149, 4230) float32
+    xCoordinateSpacing () float64
+    xCoordinates (4230,) float64
+    yCoordinateSpacing () float64
+    yCoordinates (4149,) float64
+  mask (4149, 4230) uint32
+  projection () uint32
+  xCoordinateSpacing () float64
+  xCoordinates (4230,) float64
+  yCoordinateSpacing () float64
+  yCoordinates (4149,) float64
+unwrappedInterferogram/
+  HH/
+    coherenceMagnitude (4149, 4230) float32
+    connectedComponents (4149, 4230) uint16
+    ionospherePhaseScreen (4149, 4230) float32
+    ionospherePhaseScreenUncertainty (4149, 4230) float32
+    projection () uint32
+    unwrappedPhase (4149, 4230) float32
+    xCoordinateSpacing () float64
+    xCoordinates (4230,) float64
+    yCoordinateSpacing () float64
+    yCoordinates (4149,) float64
+  mask (4149, 4230) uint32
+  projection () uint32
+  xCoordinateSpacing () float64
+  xCoordinates (4230,) float64
+  yCoordinateSpacing () float64
+  yCoordinates (4149,) float64
+wrappedInterferogram/
+  HH/
+    coherenceMagnitude (16596, 16920) float32
+    projection () uint32
+    wrappedInterferogram (16596, 16920) complex64
+    xCoordinateSpacing () float64
+    xCoordinates (16920,) float64
+    yCoordinateSpacing () float64
+    yCoordinates (16596,) float64
+  mask (16596, 16920) uint32
+  projection () uint32
+  xCoordinateSpacing () float64
+  xCoordinates (16920,) float64
+  yCoordinateSpacing () float64
+  yCoordinates (16596,) float64
